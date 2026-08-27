@@ -36,7 +36,7 @@
     <g>
       <rect x="40" y="106" width="209.6" height="86" rx="10"
             fill="#00e5a0" fill-opacity="0.07" stroke="#00e5a0" stroke-opacity="0.3"/>
-      <text x="144.8" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#e6edf3">75</text>
+      <text x="144.8" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#e6edf3">76</text>
       <text x="144.8" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">public repos</text>
     </g>
     <g>
@@ -54,7 +54,7 @@
     <g>
       <rect x="722.8" y="106" width="209.6" height="86" rx="10"
             fill="#f778ba" fill-opacity="0.07" stroke="#f778ba" stroke-opacity="0.3"/>
-      <text x="827.5999999999999" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#e6edf3">50</text>
+      <text x="827.5999999999999" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#e6edf3">49</text>
       <text x="827.5999999999999" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">org packages</text>
     </g>
     <g>
@@ -63,6 +63,6 @@
       <text x="1055.2" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#e6edf3">2013</text>
       <text x="1055.2" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">shipping since</text>
     </g>
-  <rect x="40" y="216" width="376.0769230769231" height="10" rx="5" fill="#8892bf"/><rect x="419.0769230769231" y="216" width="324.38461538461536" height="10" rx="5" fill="#3178c6"/><rect x="746.4615384615385" y="216" width="255.46153846153845" height="10" rx="5" fill="#f1e05a"/><rect x="1004.9230769230769" y="216" width="65.92307692307692" height="10" rx="5" fill="#89e051"/><rect x="1073.8461538461538" y="216" width="48.69230769230769" height="10" rx="5" fill="#b07219"/><rect x="1125.5384615384614" y="216" width="31.46153846153846" height="10" rx="5" fill="#3572a5"/>
+  <rect x="40" y="216" width="382" height="10" rx="5" fill="#8892bf"/><rect x="425" y="216" width="312" height="10" rx="5" fill="#3178c6"/><rect x="740" y="216" width="259.5" height="10" rx="5" fill="#f1e05a"/><rect x="1002.5" y="216" width="67" height="10" rx="5" fill="#89e051"/><rect x="1072.5" y="216" width="49.5" height="10" rx="5" fill="#b07219"/><rect x="1125" y="216" width="32" height="10" rx="5" fill="#3572a5"/>
   <g><circle cx="45" cy="248" r="5" fill="#8892bf"/><text x="57" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">PHP</text></g><g><circle cx="108.5" cy="248" r="5" fill="#3178c6"/><text x="120.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">TypeScript</text></g><g><circle cx="224.5" cy="248" r="5" fill="#f1e05a"/><text x="236.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">JavaScript</text></g><g><circle cx="340.5" cy="248" r="5" fill="#89e051"/><text x="352.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">Shell</text></g><g><circle cx="419" cy="248" r="5" fill="#b07219"/><text x="431" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">Java</text></g><g><circle cx="490" cy="248" r="5" fill="#3572a5"/><text x="502" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#7d8590">Python</text></g>
 </svg>
