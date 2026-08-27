@@ -203,7 +203,7 @@ function banner(t) {
   const h = 356;
   const name = 'DAMIEN  DUBOEUF';
   const rows = [
-    ['role', 'Backend & full-stack engineer — freelance, Lyon (FR)'],
+    ['role', 'Backend & full-stack engineer — freelance, remote'],
     ['stack', 'PHP · Symfony · TypeScript · Node · Docker · MQTT'],
     ['orgs', 'GollumSF · GollumJS · GollumDom'],
   ];
@@ -212,7 +212,7 @@ function banner(t) {
          fill="${t.green}" opacity="0.55" filter="url(#soft)">${esc(name)}</text>`
     : '';
   return svg(h, `${defs(t)}
-  ${chrome(t, h, 'smeagolworms4@lyon: ~/works', 'zsh')}
+  ${chrome(t, h, 'smeagolworms4@home: ~/works', 'zsh')}
   <g clip-path="inset(46px 1px 1px 1px round 0 0 14px 14px)">
     <rect x="0" y="46" width="${W}" height="${h - 46}" fill="url(#dots)" opacity="0.5"/>
     <circle cx="1032" cy="196" r="190" fill="url(#halo)"/>
@@ -274,7 +274,7 @@ function stack(t) {
   }).join('');
 
   return svg(h, `${defs(t)}
-  ${chrome(t, h, 'smeagolworms4@lyon: ~/works', 'stack')}
+  ${chrome(t, h, 'smeagolworms4@home: ~/works', 'stack')}
   <rect x="0" y="46" width="${W}" height="${h - 47}" fill="url(#dots)" opacity="0.35"/>
   ${prompt(t, 40, 88, 'ls --group stack/')}
   ${rows}`);
@@ -321,7 +321,7 @@ function pulse(t, s) {
   }).join('');
 
   return svg(h, `${defs(t)}
-  ${chrome(t, h, 'smeagolworms4@lyon: ~/works', 'stats')}
+  ${chrome(t, h, 'smeagolworms4@home: ~/works', 'stats')}
   <rect x="0" y="46" width="${W}" height="${h - 47}" fill="url(#dots)" opacity="0.35"/>
   ${prompt(t, 40, 88, 'gh api /users/smeagolworms4 --pulse')}
   ${tileSvg}

@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Damien Duboeuf — développeur backend et full-stack, Lyon, France" src="./assets/banner-light.svg" width="100%">
+  <img alt="Damien Duboeuf — développeur backend et full-stack" src="./assets/banner-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -10,7 +10,6 @@
   <a href="https://github.com/GollumSF"><img alt="GollumSF" src="https://img.shields.io/badge/GollumSF-SYMFONY-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff"></a>
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
   <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
-  <img alt="Lyon, France" src="https://img.shields.io/badge/LYON-FRANCE-0d1117?style=for-the-badge&logo=googlemaps&logoColor=f778ba">
 </p>
 
 <p align="center">
