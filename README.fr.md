@@ -9,6 +9,7 @@
   <a href="https://github.com/Smeagolworms4?tab=followers"><img alt="Abonnés" src="https://img.shields.io/github/followers/Smeagolworms4?style=for-the-badge&logo=github&label=ABONNES&labelColor=0d1117&color=00e5a0"></a>
   <a href="https://github.com/GollumSF"><img alt="GollumSF" src="https://img.shields.io/badge/GollumSF-SYMFONY-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff"></a>
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
+  <a href="https://smea.tech/"><img alt="Blog" src="https://img.shields.io/badge/BLOG-SMEA.TECH-0d1117?style=for-the-badge&logo=rss&logoColor=f0b429"></a>
   <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
 </p>
 
@@ -19,7 +20,7 @@
 <p align="center">
   Je fabrique des briques petites, nettes et réutilisables : des bundles Symfony qui font une seule chose<br>
   correctement, des bibliothèques TypeScript qui ne gênent personne, et une maison qui parle MQTT.<br>
-  Tout auto-hébergé, tout open source.
+  Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
 </p>
 
 ---
@@ -161,7 +162,7 @@
     <td width="50%" valign="top">
       <h3>🔌 <a href="https://github.com/Smeagolworms4/MQTT-Explorer">MQTT-Explorer</a> <a href="https://github.com/Smeagolworms4/MQTT-Explorer/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/Smeagolworms4/MQTT-Explorer?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Une compilation Node.js de MQTT Explorer, à lancer sur un serveur et à ouvrir dans le navigateur — sans installation de poste, accessible depuis tout le réseau.<br><br>
-      <code>Node.js</code> <code>MQTT</code> <code>auto-hébergé</code>
+      <code>Node.js</code> <code>MQTT</code> <code>auto-hébergé</code><br><a href="https://hub.docker.com/r/smeagolworms4/mqtt-explorer"><img alt="téléchargements Docker" src="https://img.shields.io/docker/pulls/smeagolworms4/mqtt-explorer?style=flat-square&label=docker%20pulls&labelColor=0d1117&color=4cc4ff"></a>
     </td>
   </tr>
   <tr>
@@ -187,52 +188,71 @@
 
 ---
 
-## 🧰 Outils &amp; petits services
+## 📦 Applications auto-hébergées
+
+> Cette fois ce ne sont pas des bibliothèques mais des produits finis. Une image Docker, une interface web, un README qui ne présuppose rien — et, pour la plupart, un article sur le blog qui explique pourquoi ils existent.
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/image-resizer">image-resizer</a></h4>
-      Redimensionnement et conversion d'images à la volée en HTTP, pensé pour se placer derrière un CDN ou un proxy de cache.
+    <td width="50%" valign="top">
+      <h3>🎁 <a href="https://github.com/Smeagolworms4/claim-game-auto">claim-game-auto</a> <a href="https://hub.docker.com/r/smeagolworms4/claim-game-auto"><img align="right" alt="téléchargements Docker" src="https://img.shields.io/docker/pulls/smeagolworms4/claim-game-auto?style=flat-square&label=pulls&labelColor=0d1117&color=4cc4ff"></a></h3>
+      Récupère tout seul les jeux gratuits d'<b>Epic, Steam, GOG et Prime&nbsp;Gaming&nbsp;/&nbsp;Luna</b>, deux fois par jour. Node.js&nbsp;+&nbsp;Playwright en Docker, une interface Vue&nbsp;3 pour les offres et l'historique, et un <b>VNC intégré</b> qui ouvre un vrai Chrome quand un store réclame un mot de passe et un code 2FA — puis se referme en headless. Notifications Discord, Telegram, ntfy ou webhook, avec un lien de déblocage qui relance la récupération tout seul.<br><br>
+      <code>Node.js</code> <code>Playwright</code> <code>Vue 3</code> <code>Docker</code><br>
+      <a href="https://smea.tech/claim-auto-jeux-gratuits/">→ l'article</a>
     </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/ip-info">ip-info</a></h4>
-      Tout ce qu'une adresse IP peut révéler — pays, ville, coordonnées, fuseau, AS — servi localement depuis les bases MaxMind.
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/docker-osm-proxy">docker-osm-proxy</a></h4>
-      Un proxy de tuiles OpenStreetMap minimaliste en conteneur, pour des cartes qui ne matraquent pas les serveurs publics.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/auto-makefile">auto-makefile</a></h4>
-      Un Makefile qui se documente et se découvre tout seul, pour que <code>make</code> reste la porte d'entrée de chaque projet.
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/pop3_to_smtp">pop3_to_smtp</a></h4>
-      Vide une boîte POP3 et la réinjecte en SMTP — la colle des configurations mail que personne ne veut migrer.
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/jellyfin-webhook-betaseries">jellyfin-webhook-betaseries</a></h4>
-      Marque les épisodes comme vus sur BetaSeries depuis un webhook Jellyfin, pour un suivi entièrement automatique.
+    <td width="50%" valign="top">
+      <h3>📬 <a href="https://github.com/Smeagolworms4/pop3_to_smtp">pop3_to_smtp</a> <a href="https://hub.docker.com/r/smeagolworms4/pop3_to_smtp"><img align="right" alt="téléchargements Docker" src="https://img.shields.io/docker/pulls/smeagolworms4/pop3_to_smtp?style=flat-square&label=pulls&labelColor=0d1117&color=4cc4ff"></a></h3>
+      Relève autant de boîtes POP3 que voulu et les <b>reverse dans Gmail</b> — par dépôt IMAP, via l'API Gmail, ou en SMTP classique. Écrit parce que le « relever les messages d'autres comptes » de Gmail est lent et abandonne en silence. Conserve intacts l'expéditeur, la date, le <code>Message-ID</code>, le fil, les pièces jointes et jusqu'à la signature DKIM : ça se lit comme une vraie redirection. NestJS&nbsp;+&nbsp;Vue&nbsp;3, interface en six langues.<br><br>
+      <code>NestJS</code> <code>TypeScript</code> <code>Vue 3</code> <code>Docker</code>
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/claude-switch-account">claude-switch-account</a></h4>
-      Bascule entre plusieurs comptes Claude sans se réauthentifier à chaque fois.
+    <td width="50%" valign="top">
+      <h3>🖼️ <a href="https://github.com/Smeagolworms4/image-resizer">image-resizer</a> <a href="https://hub.docker.com/r/smeagolworms4/image-resizer"><img align="right" alt="téléchargements Docker" src="https://img.shields.io/docker/pulls/smeagolworms4/image-resizer?style=flat-square&label=pulls&labelColor=0d1117&color=4cc4ff"></a></h3>
+      Redimensionnement et conversion à la volée, en HTTP : chaque variante n'est qu'une adresse — <code>/photos/plage.jpg/_cover_320_320_80.webp</code>. Conçu pour se placer <b>derrière un cache</b>, de sorte que chaque variante n'est calculée qu'une fois.<br><br>
+      <code>Node.js</code> <code>WebP / AVIF</code> <code>amd64 · arm64 · armv7</code><br>
+      <a href="https://smea.tech/image-resizer-taille-sur-demande/">→ l'article</a>
     </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/docker-certbot-ovh-cron">docker-certbot-ovh-cron</a></h4>
-      Certbot avec le challenge DNS OVH, sur cron, en conteneur. Posé une fois, les renouvellements s'oublient.
+    <td width="50%" valign="top">
+      <h3>🌍 <a href="https://github.com/Smeagolworms4/ip-info">ip-info</a> <a href="https://hub.docker.com/r/smeagolworms4/ip-info"><img align="right" alt="téléchargements Docker" src="https://img.shields.io/docker/pulls/smeagolworms4/ip-info?style=flat-square&label=pulls&labelColor=0d1117&color=4cc4ff"></a></h3>
+      Tout ce qu'une adresse IP peut révéler — pays, ville, coordonnées, fuseau, réseau, AS. La résolution est une <b>lecture de fichier local</b> issue des bases MaxMind : rien de vos visiteurs ne quitte la machine, et la seule limite de débit est la vôtre.<br><br>
+      <code>Node.js</code> <code>MaxMind</code> <code>auto-hébergé</code><br>
+      <a href="https://smea.tech/geolocaliser-adresse-ip/">→ l'article</a>
     </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/Smeagolworms4/gitlab-coverage">gitlab-coverage</a></h4>
-      Badges et rapports de couverture pour les pipelines GitLab CI.
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📺 <a href="https://github.com/Smeagolworms4/jellyfin-webhook-betaseries">jellyfin-webhook-betaseries</a></h3>
+      BetaSeries propose une intégration Plex et rien pour Jellyfin. Ces templates comblent le trou avec <b>le seul plugin Webhook officiel</b> — épisodes et films marqués comme vus, sans clé d'API, sans mot de passe, sans une ligne de code à écrire.<br><br>
+      <code>Jellyfin</code> <code>Handlebars</code> <code>webhook</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔀 <a href="https://github.com/Smeagolworms4/claude-switch-account">claude-switch-account</a></h3>
+      Une extension navigateur Manifest&nbsp;V3 qui garde <b>plusieurs comptes claude.ai côte à côte</b> et bascule de l'un à l'autre en un clic. Elle capture les cookies de session dans un profil et l'étiquette automatiquement avec le nom et l'e-mail du compte.<br><br>
+      <code>MV3</code> <code>Chrome / Firefox</code> <code>cookies</code>
     </td>
   </tr>
 </table>
+
+<sub><b>Et les pièces plus petites :</b>
+<a href="https://github.com/Smeagolworms4/auto-makefile">auto-makefile</a> — un Makefile auto-documenté partagé entre projets (<a href="https://smea.tech/auto-makefile-cross-projets/">article</a>) ·
+<a href="https://github.com/Smeagolworms4/docker-osm-proxy">docker-osm-proxy</a> — un proxy de tuiles OpenStreetMap minimaliste ·
+<a href="https://github.com/Smeagolworms4/nginx-proxy">nginx-proxy</a> — nginx configuré entièrement par variables d'environnement ·
+<a href="https://github.com/Smeagolworms4/docker-certbot-ovh-cron">docker-certbot-ovh-cron</a> — Certbot avec le challenge DNS OVH, sur cron ·
+<a href="https://github.com/Smeagolworms4/gitlab-coverage">gitlab-coverage</a> — badges de couverture pour GitLab CI</sub>
+
+---
+
+## 📝 Le blog — [smea.tech](https://smea.tech/)
+
+> C'est là que les projets ci-dessus sont expliqués : le problème de départ, ce qui a coincé en route, et ce que j'en ai gardé. Homelab, auto-hébergement et domotique.
+
+| | |
+| --- | --- |
+| [Claim Auto : récupérer les jeux gratuits](https://smea.tech/claim-auto-jeux-gratuits/) | [Image Resizer : la taille sur demande](https://smea.tech/image-resizer-taille-sur-demande/) |
+| [IP Info : géolocaliser une adresse IP](https://smea.tech/geolocaliser-adresse-ip/) | [Auto Makefile : un Makefile cross projets](https://smea.tech/auto-makefile-cross-projets/) |
+| [Home Assistant, pilier de la domotique](https://smea.tech/home-assistant-pilier-domotique/) | [Ma stack Portainer](https://smea.tech/ma-stack-portainer/) |
+| [CrowdSec : protéger ses applications web](https://smea.tech/crowdsec-proteger-sites-applications-web/) | [Jellyfin, le Netflix du homelab](https://smea.tech/jellyfin-netflix-homelab/) |
 
 ---
 
@@ -275,6 +295,7 @@ tout appareil qui parle une API propriétaire finit avec sa passerelle
   <a href="https://github.com/GollumSF">GollumSF</a> ·
   <a href="https://github.com/GollumJS">GollumJS</a> ·
   <a href="https://github.com/GollumDom">GollumDom</a> ·
+  <a href="https://smea.tech/">smea.tech</a> ·
   <a href="./README.md">English</a>
 </p>
 

@@ -200,12 +200,13 @@ ${body}
 /* ---------------------------------------------------------------- banner -- */
 
 function banner(t) {
-  const h = 356;
+  const h = 384;
   const name = 'DAMIEN  DUBOEUF';
   const rows = [
     ['role', 'Backend & full-stack engineer — freelance, remote'],
     ['stack', 'PHP · Symfony · TypeScript · Node · Docker · MQTT'],
     ['orgs', 'GollumSF · GollumJS · GollumDom'],
+    ['blog', 'smea.tech — homelab, self-hosting, home automation'],
   ];
   const neon = t.neon
     ? `<text x="40" y="146" font-family="${MONO}" font-size="44" font-weight="700" letter-spacing="1.5"
@@ -233,8 +234,8 @@ function banner(t) {
   ${rows.map(([k, v], i) => `
   <text x="40" y="${244 + i * 28}" font-family="${MONO}" font-size="16" fill="${t.cyan}">${esc(k)}</text>
   <text x="118" y="${244 + i * 28}" font-family="${MONO}" font-size="16" fill="${t.text}" opacity="0.9">${esc(v)}</text>`).join('')}
-  <text x="40" y="326" font-family="${MONO}" font-size="16" fill="${t.green}" font-weight="600">$</text>
-  ${cursor(t, 58, 326)}`);
+  <text x="40" y="354" font-family="${MONO}" font-size="16" fill="${t.green}" font-weight="600">$</text>
+  ${cursor(t, 58, 354)}`);
 }
 
 /* ----------------------------------------------------------------- stack -- */
