@@ -1,17 +1,17 @@
 <!-- Les visuels sont générés par scripts/generate.mjs — modifier le script, pas les SVG. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Damien Duboeuf — développeur backend et full-stack" src="./assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=2">
+  <img alt="Damien Duboeuf — développeur backend et full-stack" src="./assets/banner-light.svg?v=2" width="100%">
 </picture>
 
 <p align="center">
   <a href="https://github.com/Smeagolworms4?tab=followers"><img alt="Abonnés" src="https://img.shields.io/github/followers/Smeagolworms4?style=for-the-badge&logo=github&label=ABONNES&labelColor=0d1117&color=00e5a0"></a>
   <a href="https://github.com/GollumSF"><img alt="GollumSF" src="https://img.shields.io/badge/GollumSF-SYMFONY-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff"></a>
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
+  <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
   <a href="https://github.com/GollumTeam"><img alt="GollumTeam" src="https://img.shields.io/badge/GollumTeam-MINECRAFT-0d1117?style=for-the-badge&logo=curseforge&logoColor=f0b429"></a>
   <a href="https://smea.tech/"><img alt="Blog" src="https://img.shields.io/badge/BLOG-SMEA.TECH-0d1117?style=for-the-badge&logo=rss&logoColor=f0b429"></a>
-  <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
 </p>
 
 <p align="center">
@@ -31,9 +31,9 @@
 
 <a href="https://smea.tech/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/blog-light.svg">
-    <img alt="Derniers articles de smea.tech" src="./assets/blog-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/blog-light.svg?v=2">
+    <img alt="Derniers articles de smea.tech" src="./assets/blog-light.svg?v=2" width="100%">
   </picture>
 </a>
 
@@ -49,9 +49,9 @@ L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a c
 ## `~/` Boîte à outils
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img alt="Stack : PHP, Symfony, Doctrine, TypeScript, Vue, React, Node, Docker, Nginx, MQTT, Home Assistant, ESPHome, Arduino, Raspberry Pi" src="./assets/stack-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg?v=2">
+  <img alt="Stack : PHP, Symfony, Doctrine, TypeScript, Vue, React, Node, Docker, Nginx, MQTT, Home Assistant, ESPHome, Arduino, Raspberry Pi" src="./assets/stack-light.svg?v=2" width="100%">
 </picture>
 
 ---
@@ -269,9 +269,9 @@ L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a c
 ## 📊 Pouls GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg">
-  <img alt="Statistiques GitHub publiques de Smeagolworms4" src="./assets/pulse-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg?v=2">
+  <img alt="Statistiques GitHub publiques de Smeagolworms4" src="./assets/pulse-light.svg?v=2" width="100%">
 </picture>
 
 <sub>Régénéré chaque jour depuis l'API publique GitHub par <a href="./scripts/generate.mjs"><code>scripts/generate.mjs</code></a>. Aucun nom de dépôt privé ni détail d'activité privée n'est exposé.</sub>
@@ -339,7 +339,7 @@ tout appareil qui parle une API propriétaire finit avec sa passerelle
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <img alt="" src="./assets/footer-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=2">
+  <img alt="" src="./assets/footer-light.svg?v=2" width="100%">
 </picture>
