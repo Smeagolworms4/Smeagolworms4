@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Open in a browser to check both themes before pushing: the toggle mirrors
+     what GitHub does with prefers-color-scheme. -->
+<meta charset="utf-8">
+<title>Profile assets — preview</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; padding: 32px; background: #fff; font: 14px ui-monospace, monospace; }
+  body.dark { background: #0d1117; color: #e6edf3; }
+  img { display: block; width: 100%; max-width: 1000px; margin: 0 auto 28px; }
+  button { position: fixed; top: 16px; right: 16px; padding: 8px 14px; cursor: pointer; }
+</style>
+<button onclick="toggle()">toggle theme</button>
+<div id="shots"></div>
+<script>
+  const names = ['banner', 'stack', 'pulse', 'footer'];
+  let dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  function render() {
+    document.body.classList.toggle('dark', dark);
+    document.getElementById('shots').innerHTML = names
+      .map(n => `<img src="./assets/${n}-${dark ? 'dark' : 'light'}.svg" alt="${n}">`)
+      .join('');
+  }
+  function toggle() { dark = !dark; render(); }
+  render();
+</script>

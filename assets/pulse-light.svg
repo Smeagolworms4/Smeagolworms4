@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 278" width="1200" height="278" role="img">
+<defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0c8f6c" stop-opacity="0.07700000000000001"/>
+      <stop offset="55%" stop-color="#0969da" stop-opacity="0.022400000000000003"/>
+      <stop offset="100%" stop-color="#0969da" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0c8f6c" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#0c8f6c" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#0969da" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#bf3989" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#d0d7de" fill-opacity="0.55"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="1199" height="277" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+  <path d="M0,14 A14,14 0 0 1 14,0 H1186 A14,14 0 0 1 1200,14 V46 H0 Z" fill="#eaeef2"/>
+  <line x1="0" y1="46" x2="1200" y2="46" stroke="#d0d7de"/>
+  <circle cx="26" cy="23" r="6" fill="#cf222e" fill-opacity="0.85"/>
+  <circle cx="48" cy="23" r="6" fill="#9a6700" fill-opacity="0.85"/>
+  <circle cx="70" cy="23" r="6" fill="#0c8f6c" fill-opacity="0.85"/>
+  <text x="486.6" y="28" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#5b6673">smeagolworms4@lyon: ~/works</text>
+  <text x="1174" y="28" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#5b6673" opacity="0.7">stats</text>
+  <rect x="0" y="46" width="1200" height="231" fill="url(#dots)" opacity="0.35"/>
+  <text x="40" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="16">
+    <tspan fill="#0c8f6c" font-weight="600">$</tspan><tspan fill="#111820" opacity="0.82"> gh api /users/smeagolworms4 --pulse</tspan>
+  </text>
+  
+    <g>
+      <rect x="40" y="106" width="209.6" height="86" rx="10"
+            fill="#0c8f6c" fill-opacity="0.06" stroke="#0c8f6c" stroke-opacity="0.3"/>
+      <text x="144.8" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#111820">75</text>
+      <text x="144.8" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">public repos</text>
+    </g>
+    <g>
+      <rect x="267.6" y="106" width="209.6" height="86" rx="10"
+            fill="#9a6700" fill-opacity="0.06" stroke="#9a6700" stroke-opacity="0.3"/>
+      <text x="372.40000000000003" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#111820">208</text>
+      <text x="372.40000000000003" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">stars earned</text>
+    </g>
+    <g>
+      <rect x="495.2" y="106" width="209.6" height="86" rx="10"
+            fill="#0969da" fill-opacity="0.06" stroke="#0969da" stroke-opacity="0.3"/>
+      <text x="600" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#111820">15</text>
+      <text x="600" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">followers</text>
+    </g>
+    <g>
+      <rect x="722.8" y="106" width="209.6" height="86" rx="10"
+            fill="#bf3989" fill-opacity="0.06" stroke="#bf3989" stroke-opacity="0.3"/>
+      <text x="827.5999999999999" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#111820">50</text>
+      <text x="827.5999999999999" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">org packages</text>
+    </g>
+    <g>
+      <rect x="950.4" y="106" width="209.6" height="86" rx="10"
+            fill="#0c8f6c" fill-opacity="0.06" stroke="#0c8f6c" stroke-opacity="0.3"/>
+      <text x="1055.2" y="152" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="34" font-weight="700" fill="#111820">2013</text>
+      <text x="1055.2" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">shipping since</text>
+    </g>
+  <rect x="40" y="216" width="376.0769230769231" height="10" rx="5" fill="#8892bf"/><rect x="419.0769230769231" y="216" width="324.38461538461536" height="10" rx="5" fill="#3178c6"/><rect x="746.4615384615385" y="216" width="255.46153846153845" height="10" rx="5" fill="#f1e05a"/><rect x="1004.9230769230769" y="216" width="65.92307692307692" height="10" rx="5" fill="#89e051"/><rect x="1073.8461538461538" y="216" width="48.69230769230769" height="10" rx="5" fill="#b07219"/><rect x="1125.5384615384614" y="216" width="31.46153846153846" height="10" rx="5" fill="#3572a5"/>
+  <g><circle cx="45" cy="248" r="5" fill="#8892bf"/><text x="57" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">PHP</text></g><g><circle cx="108.5" cy="248" r="5" fill="#3178c6"/><text x="120.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">TypeScript</text></g><g><circle cx="224.5" cy="248" r="5" fill="#f1e05a"/><text x="236.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">JavaScript</text></g><g><circle cx="340.5" cy="248" r="5" fill="#89e051"/><text x="352.5" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">Shell</text></g><g><circle cx="419" cy="248" r="5" fill="#b07219"/><text x="431" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">Java</text></g><g><circle cx="490" cy="248" r="5" fill="#3572a5"/><text x="502" y="252" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#5b6673">Python</text></g>
+</svg>
