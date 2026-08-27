@@ -9,6 +9,7 @@
   <a href="https://github.com/Smeagolworms4?tab=followers"><img alt="Abonnés" src="https://img.shields.io/github/followers/Smeagolworms4?style=for-the-badge&logo=github&label=ABONNES&labelColor=0d1117&color=00e5a0"></a>
   <a href="https://github.com/GollumSF"><img alt="GollumSF" src="https://img.shields.io/badge/GollumSF-SYMFONY-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff"></a>
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
+  <a href="https://github.com/GollumTeam"><img alt="GollumTeam" src="https://img.shields.io/badge/GollumTeam-MINECRAFT-0d1117?style=for-the-badge&logo=curseforge&logoColor=f0b429"></a>
   <a href="https://smea.tech/"><img alt="Blog" src="https://img.shields.io/badge/BLOG-SMEA.TECH-0d1117?style=for-the-badge&logo=rss&logoColor=f0b429"></a>
   <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
 </p>
@@ -18,9 +19,29 @@
 </p>
 
 <p align="center">
-  Je fabrique des briques petites, nettes et réutilisables : des bundles Symfony qui font une seule chose<br>
-  correctement, des bibliothèques TypeScript qui ne gênent personne, et une maison qui parle MQTT.<br>
-  Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
+  <b>Backend et front-end</b> — Symfony et NestJS d'un côté, Vue, React et Angular de l'autre,<br>
+  et le firmware C++ au bout de la maison. Je fabrique des briques petites, nettes et réutilisables :<br>
+  des bundles qui font une seule chose correctement, des applications qui tiennent dans une image Docker,<br>
+  et une maison qui parle MQTT. Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
+</p>
+
+---
+
+## 📝 Le blog — [smea.tech](https://smea.tech/)
+
+<a href="https://smea.tech/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/blog-light.svg">
+    <img alt="Derniers articles de smea.tech" src="./assets/blog-light.svg" width="100%">
+  </picture>
+</a>
+
+L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a coincé en route, et ce que j'en ai gardé. Homelab, auto-hébergement, domotique et les projets de cette page. La liste ci-dessus est tirée du flux RSS chaque nuit.
+
+<p align="center">
+  <a href="https://smea.tech/"><b>→ Lire smea.tech</b></a> ·
+  <a href="https://smea.tech/feed/">RSS</a>
 </p>
 
 ---
@@ -176,9 +197,11 @@
       <a href="https://github.com/GollumDom/enedisgateway2mqtt">enedisgateway2mqtt</a> — consommation Enedis
     </td>
     <td width="50%" valign="top">
-      <h3>📡 Matériel &amp; intégrations</h3>
-      <a href="https://github.com/GollumDom/IRRemoteWifi">IRRemoteWifi</a> — émetteur infrarouge Wi-Fi avec son interface d'admin<br>
-      <a href="https://github.com/Smeagolworms4/ir_remote_electrolux">ir_remote_electrolux</a> — télécommande de hotte Electrolux rétro-conçue<br>
+      <h3>📡 Firmware &amp; intégrations <code>C++</code></h3>
+      L'autre moitié de la domotique, c'est un fer à souder et un compilateur :<br><br>
+      <a href="https://github.com/GollumDom/IRRemoteWifi">IRRemoteWifi</a> — un émetteur infrarouge ESP Wi-Fi en C++, avec son API HTTP et son interface d'admin<br>
+      <a href="https://github.com/Smeagolworms4/ir_remote_electrolux">ir_remote_electrolux</a> — le protocole de la hotte Electrolux capté, décodé et réémis<br>
+      <a href="https://github.com/GollumDom/Arduino-IRremote">Arduino-IRremote</a> — la bibliothèque IR en dessous, forkée et tenue à jour<br>
       <a href="https://github.com/GollumDom/tp-link-legacy-integration">tp-link-legacy-integration</a> — garde le matériel TP-Link ancien vivant dans HA<br>
       <a href="https://github.com/Smeagolworms4/ha_second_core">ha_second_core</a> — un second cœur Home Assistant, en parallèle<br>
       <a href="https://github.com/GollumDom/lovelace-script-mod">lovelace-script-mod</a> — des scripts personnalisés dans les cartes Lovelace
@@ -243,19 +266,6 @@
 
 ---
 
-## 📝 Le blog — [smea.tech](https://smea.tech/)
-
-> C'est là que les projets ci-dessus sont expliqués : le problème de départ, ce qui a coincé en route, et ce que j'en ai gardé. Homelab, auto-hébergement et domotique.
-
-| | |
-| --- | --- |
-| [Claim Auto : récupérer les jeux gratuits](https://smea.tech/claim-auto-jeux-gratuits/) | [Image Resizer : la taille sur demande](https://smea.tech/image-resizer-taille-sur-demande/) |
-| [IP Info : géolocaliser une adresse IP](https://smea.tech/geolocaliser-adresse-ip/) | [Auto Makefile : un Makefile cross projets](https://smea.tech/auto-makefile-cross-projets/) |
-| [Home Assistant, pilier de la domotique](https://smea.tech/home-assistant-pilier-domotique/) | [Ma stack Portainer](https://smea.tech/ma-stack-portainer/) |
-| [CrowdSec : protéger ses applications web](https://smea.tech/crowdsec-proteger-sites-applications-web/) | [Jellyfin, le Netflix du homelab](https://smea.tech/jellyfin-netflix-homelab/) |
-
----
-
 ## 📊 Pouls GitHub
 
 <picture>
@@ -268,17 +278,45 @@
 
 ---
 
-## ⛏️ Minecraft — les archives de 2013
+## ⛏️ Minecraft — [`GollumTeam`](https://github.com/GollumTeam)
 
-> Là où tout a commencé. Java, Forge et Bukkit, gardés en ligne pour l'histoire plus que pour le code.
+> Là où tout a commencé, et où j'ai appris à livrer pour des gens qui ouvrent des tickets. Une équipe de mods Minecraft, en Java sur Forge, de 2013 à 2016 — toujours en ligne, toujours forkée.
 
-| Dépôt | À l'époque |
-| --- | --- |
-| [`Smeagol-s-Custom-Blocks`](https://github.com/Smeagolworms4/Smeagol-s-Custom-Blocks) | Un mod Forge pour créer blocs et objets personnalisés sans écrire de Java |
-| [`Smeagol-s-Minecraft-Creator`](https://github.com/Smeagolworms4/Smeagol-s-Minecraft-Creator) | L'éditeur construit par-dessus |
-| [`Minecraft-ID-Changer`](https://github.com/Smeagolworms4/Minecraft-ID-Changer) | Réattribue les ID de blocs sur une map existante — le remède aux conflits de mods de l'époque |
-| [`Minecraft-ID-Dumper`](https://github.com/Smeagolworms4/Minecraft-ID-Dumper) | Extrait la table complète des ID blocs/objets d'une installation |
-| [`Misa-MisaServerMod`](https://github.com/Smeagolworms4/Misa-MisaServerMod) | Un mod serveur pour une communauté qui n'existe plus |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔧 <a href="https://github.com/GollumTeam/MorePistons">MorePistons</a> <a href="https://github.com/GollumTeam/MorePistons/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumTeam/MorePistons?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
+      Celui qui est allé le plus loin : des pistons qui s'étendent bien au-delà d'un bloc, avec le déplacement, les collisions et le comportement redstone réécrits en conséquence. Commencé en 2013, encore maintenu huit ans plus tard.<br><br>
+      <code>Java</code> <code>Forge</code> <code>redstone</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏰 <a href="https://github.com/GollumTeam/CastleDefenders">CastleDefenders</a> <a href="https://github.com/GollumTeam/CastleDefenders/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumTeam/CastleDefenders?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
+      Des soldats recrutables pour tenir garnison dans votre château — entités sur mesure, leur IA, leur équipement et toute l'économie d'embauche autour.<br><br>
+      <code>Java</code> <code>IA d'entités</code> <code>gameplay</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🪑 <a href="https://github.com/GollumTeam/JammyFurniture">JammyFurniture</a> <a href="https://github.com/GollumTeam/JammyFurniture/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumTeam/JammyFurniture?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
+      Un mod de mobilier très apprécié avait été abandonné, avec pour seul reste une version décompilée. Voici la réimplémentation propre, plus une <a href="https://github.com/GollumTeam/JammyFurniture-Zuxelus-compatibility">couche de compatibilité</a> pour que les mondes existants survivent au passage.<br><br>
+      <code>Java</code> <code>rétro-ingénierie</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/GollumTeam/GollumCoreLib">GollumCoreLib</a> <a href="https://github.com/GollumTeam/GollumCoreLib/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumTeam/GollumCoreLib?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
+      Le socle commun sous tout ce qui précède — enregistrement, configuration, paquets réseau, génération de structures — avec ses propres <a href="https://github.com/GollumTeam/GollumCoreLib-Tutorials">tutoriels</a>. Le même réflexe que les paquets Composer et npm plus haut, dix ans plus tôt.<br><br>
+      <code>Java</code> <code>bibliothèque</code> <code>Forge</code>
+    </td>
+  </tr>
+</table>
+
+<sub><b>Également au grenier :</b>
+<a href="https://github.com/GollumTeam/RedoriSBuildingsAndDungeons">RedoriSBuildingsAndDungeons</a> — bâtiments et donjons générés avec leur butin ·
+<a href="https://github.com/GollumTeam/AtlanteanMillenaire">AtlanteanMillenaire</a> ·
+<a href="https://github.com/GollumTeam/GollumAutoReplace">GollumAutoReplace</a> — remplacement en masse de blocs, objets et tile-entities ·
+<a href="https://github.com/GollumTeam/GravitationnalBlock">GravitationnalBlock</a> ·
+<a href="https://github.com/GollumTeam/RenderCore">RenderCore</a> — un coremod qui restaure les hooks de rendu 1.7 perdus en 1.8 ·
+<a href="https://github.com/GollumTeam/Custom-Steve-Server">Custom-Steve-Server</a> ·
+et les <a href="https://github.com/Smeagolworms4?tab=repositories&q=minecraft">outils solo</a> : <a href="https://github.com/Smeagolworms4/Smeagol-s-Custom-Blocks">créateur de blocs</a>, <a href="https://github.com/Smeagolworms4/Minecraft-ID-Changer">ID changer</a>, <a href="https://github.com/Smeagolworms4/Minecraft-ID-Dumper">ID dumper</a>
 
 ---
 
@@ -295,6 +333,7 @@ tout appareil qui parle une API propriétaire finit avec sa passerelle
   <a href="https://github.com/GollumSF">GollumSF</a> ·
   <a href="https://github.com/GollumJS">GollumJS</a> ·
   <a href="https://github.com/GollumDom">GollumDom</a> ·
+  <a href="https://github.com/GollumTeam">GollumTeam</a> ·
   <a href="https://smea.tech/">smea.tech</a> ·
   <a href="./README.md">English</a>
 </p>

@@ -55,28 +55,34 @@
         <text x="347" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Doctrine</text>
       </g>
       <g>
-        <rect x="437.2" y="98" width="93.2" height="28" rx="14"
+        <rect x="437.2" y="98" width="59.6" height="28" rx="14"
               fill="#4cc4ff" fill-opacity="0.1"
               stroke="#4cc4ff" stroke-opacity="0.45"/>
-        <text x="450.2" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">API REST</text>
+        <text x="450.2" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Node</text>
       </g>
       <g>
-        <rect x="540.4" y="98" width="68" height="28" rx="14"
+        <rect x="506.79999999999995" y="98" width="76.4" height="28" rx="14"
               fill="#4cc4ff" fill-opacity="0.1"
               stroke="#4cc4ff" stroke-opacity="0.45"/>
-        <text x="553.4" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">MySQL</text>
+        <text x="519.8" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">NestJS</text>
       </g>
       <g>
-        <rect x="618.4" y="98" width="68" height="28" rx="14"
+        <rect x="593.1999999999999" y="98" width="93.2" height="28" rx="14"
               fill="#4cc4ff" fill-opacity="0.1"
               stroke="#4cc4ff" stroke-opacity="0.45"/>
-        <text x="631.4" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Redis</text>
+        <text x="606.1999999999999" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">API REST</text>
       </g>
       <g>
-        <rect x="696.4" y="98" width="93.2" height="28" rx="14"
+        <rect x="696.4" y="98" width="68" height="28" rx="14"
               fill="#4cc4ff" fill-opacity="0.1"
               stroke="#4cc4ff" stroke-opacity="0.45"/>
-        <text x="709.4" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Composer</text>
+        <text x="709.4" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">MySQL</text>
+      </g>
+      <g>
+        <rect x="774.4" y="98" width="68" height="28" rx="14"
+              fill="#4cc4ff" fill-opacity="0.1"
+              stroke="#4cc4ff" stroke-opacity="0.45"/>
+        <text x="787.4" y="117" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Redis</text>
       </g>
     <text x="40" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">frontend</text>
     <text x="152" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#00e5a0" opacity="0.8">›</text>
@@ -100,28 +106,34 @@
         <text x="372.2" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">React</text>
       </g>
       <g>
-        <rect x="437.2" y="144" width="59.6" height="28" rx="14"
+        <rect x="437.2" y="144" width="84.80000000000001" height="28" rx="14"
               fill="#00e5a0" fill-opacity="0.1"
               stroke="#00e5a0" stroke-opacity="0.45"/>
-        <text x="450.2" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Node</text>
+        <text x="450.2" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Angular</text>
       </g>
       <g>
-        <rect x="506.79999999999995" y="144" width="59.6" height="28" rx="14"
+        <rect x="532" y="144" width="84.80000000000001" height="28" rx="14"
               fill="#00e5a0" fill-opacity="0.1"
               stroke="#00e5a0" stroke-opacity="0.45"/>
-        <text x="519.8" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">SCSS</text>
+        <text x="545" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Vuetify</text>
       </g>
       <g>
-        <rect x="576.4" y="144" width="84.80000000000001" height="28" rx="14"
+        <rect x="626.8" y="144" width="59.6" height="28" rx="14"
               fill="#00e5a0" fill-opacity="0.1"
               stroke="#00e5a0" stroke-opacity="0.45"/>
-        <text x="589.4" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Webpack</text>
+        <text x="639.8" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">SCSS</text>
       </g>
       <g>
-        <rect x="671.2" y="144" width="110" height="28" rx="14"
+        <rect x="696.4" y="144" width="84.80000000000001" height="28" rx="14"
               fill="#00e5a0" fill-opacity="0.1"
               stroke="#00e5a0" stroke-opacity="0.45"/>
-        <text x="684.2" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Babylon.js</text>
+        <text x="709.4" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Webpack</text>
+      </g>
+      <g>
+        <rect x="791.2" y="144" width="110" height="28" rx="14"
+              fill="#00e5a0" fill-opacity="0.1"
+              stroke="#00e5a0" stroke-opacity="0.45"/>
+        <text x="804.2" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Babylon.js</text>
       </g>
     <text x="40" y="209" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">infra   </text>
     <text x="152" y="209" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#f0b429" opacity="0.8">›</text>
@@ -196,15 +208,21 @@
         <text x="509.00000000000006" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Arduino</text>
       </g>
       <g>
-        <rect x="590.8000000000001" y="236" width="76.4" height="28" rx="14"
+        <rect x="590.8000000000001" y="236" width="51.2" height="28" rx="14"
               fill="#f778ba" fill-opacity="0.1"
               stroke="#f778ba" stroke-opacity="0.45"/>
-        <text x="603.8000000000001" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Zigbee</text>
+        <text x="603.8000000000001" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">C++</text>
       </g>
       <g>
-        <rect x="677.2" y="236" width="126.80000000000001" height="28" rx="14"
+        <rect x="652.0000000000001" y="236" width="76.4" height="28" rx="14"
               fill="#f778ba" fill-opacity="0.1"
               stroke="#f778ba" stroke-opacity="0.45"/>
-        <text x="690.2" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Raspberry Pi</text>
+        <text x="665.0000000000001" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Zigbee</text>
+      </g>
+      <g>
+        <rect x="738.4000000000001" y="236" width="126.80000000000001" height="28" rx="14"
+              fill="#f778ba" fill-opacity="0.1"
+              stroke="#f778ba" stroke-opacity="0.45"/>
+        <text x="751.4000000000001" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#e6edf3" opacity="0.95">Raspberry Pi</text>
       </g>
 </svg>

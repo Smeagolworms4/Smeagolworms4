@@ -17,7 +17,7 @@ const OUT = join(ROOT, 'assets');
 mkdirSync(OUT, { recursive: true });
 
 const USER = 'Smeagolworms4';
-const ORGS = ['GollumSF', 'GollumJS', 'GollumDom'];
+const ORGS = ['GollumSF', 'GollumJS', 'GollumDom', 'GollumTeam'];
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
 /* ------------------------------------------------------------------ data -- */
@@ -80,6 +80,47 @@ async function collect() {
   } catch (err) {
     console.warn(`! GitHub API unavailable (${err.message}) — using fallback numbers`);
     return FALLBACK;
+  }
+}
+
+const FALLBACK_POSTS = [
+  { date: '2026-08-12', cat: 'Technos', title: 'CrowdSec : protéger vos sites et applications web' },
+  { date: '2026-08-11', cat: 'Programmation', title: 'Auto Makefile : un Makefile cross projets automatisé' },
+  { date: '2026-08-10', cat: 'Technos', title: 'Komga : vos eBooks, mangas et comics à portée de clic' },
+  { date: '2026-08-09', cat: 'Réalisations', title: 'IP Info : géolocaliser une adresse IP' },
+  { date: '2026-08-08', cat: 'Technos', title: 'Beszel : supervisez vos serveurs Docker' },
+];
+
+const MONTHS = { Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+                 Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12' };
+
+const unwrap = (v) => v.replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '')
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/&quot;/g, '"').replace(/&#8217;|&rsquo;/g, '’').replace(/&nbsp;/g, ' ').trim();
+
+/** The five latest posts of smea.tech, straight from the RSS feed. */
+async function collectPosts() {
+  try {
+    const res = await fetch('https://smea.tech/feed/', {
+      headers: { 'user-agent': 'smeagolworms4-profile-generator' },
+    });
+    if (!res.ok) throw new Error(`feed -> ${res.status}`);
+    const xml = await res.text();
+    const posts = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 5).map((m) => {
+      const item = m[1];
+      const pick = (tag) => (item.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`)) || [, ''])[1];
+      const raw = pick('pubDate').match(/(\d{1,2}) (\w{3}) (\d{4})/);
+      return {
+        title: unwrap(pick('title')),
+        cat: unwrap(([...item.matchAll(/<category>([\s\S]*?)<\/category>/g)][0] || [, ''])[1]),
+        date: raw ? `${raw[3]}-${MONTHS[raw[2]] || '01'}-${String(raw[1]).padStart(2, '0')}` : '',
+      };
+    });
+    if (!posts.length) throw new Error('empty feed');
+    return posts;
+  } catch (err) {
+    console.warn(`! smea.tech feed unavailable (${err.message}) — using fallback posts`);
+    return FALLBACK_POSTS;
   }
 }
 
@@ -200,13 +241,14 @@ ${body}
 /* ---------------------------------------------------------------- banner -- */
 
 function banner(t) {
-  const h = 384;
+  const h = 412;
   const name = 'DAMIEN  DUBOEUF';
   const rows = [
-    ['role', 'Backend & full-stack engineer — freelance, remote'],
-    ['stack', 'PHP · Symfony · TypeScript · Node · Docker · MQTT'],
-    ['orgs', 'GollumSF · GollumJS · GollumDom'],
+    ['role', 'Backend & front-end engineer — freelance, remote'],
+    ['stack', 'Symfony · NestJS · Vue · React · Angular · Docker · MQTT'],
+    ['orgs', 'GollumSF · GollumJS · GollumDom · GollumTeam'],
     ['blog', 'smea.tech — homelab, self-hosting, home automation'],
+    ['github', 'github.com/Smeagolworms4'],
   ];
   const neon = t.neon
     ? `<text x="40" y="146" font-family="${MONO}" font-size="44" font-weight="700" letter-spacing="1.5"
@@ -234,17 +276,17 @@ function banner(t) {
   ${rows.map(([k, v], i) => `
   <text x="40" y="${244 + i * 28}" font-family="${MONO}" font-size="16" fill="${t.cyan}">${esc(k)}</text>
   <text x="118" y="${244 + i * 28}" font-family="${MONO}" font-size="16" fill="${t.text}" opacity="0.9">${esc(v)}</text>`).join('')}
-  <text x="40" y="354" font-family="${MONO}" font-size="16" fill="${t.green}" font-weight="600">$</text>
-  ${cursor(t, 58, 354)}`);
+  <text x="40" y="382" font-family="${MONO}" font-size="16" fill="${t.green}" font-weight="600">$</text>
+  ${cursor(t, 58, 382)}`);
 }
 
 /* ----------------------------------------------------------------- stack -- */
 
 const STACK = [
-  ['backend ', ['PHP', 'Symfony', 'Doctrine', 'API REST', 'MySQL', 'Redis', 'Composer']],
-  ['frontend', ['TypeScript', 'Vue', 'React', 'Node', 'SCSS', 'Webpack', 'Babylon.js']],
+  ['backend ', ['PHP', 'Symfony', 'Doctrine', 'Node', 'NestJS', 'API REST', 'MySQL', 'Redis']],
+  ['frontend', ['TypeScript', 'Vue', 'React', 'Angular', 'Vuetify', 'SCSS', 'Webpack', 'Babylon.js']],
   ['infra   ', ['Docker', 'Nginx', 'Traefik', 'GitLab CI', 'Debian', 'Bash', 'Make']],
-  ['iot     ', ['MQTT', 'Home Assistant', 'ESPHome', 'Arduino', 'Zigbee', 'Raspberry Pi']],
+  ['iot     ', ['MQTT', 'Home Assistant', 'ESPHome', 'Arduino', 'C++', 'Zigbee', 'Raspberry Pi']],
 ];
 
 function stack(t) {
@@ -330,6 +372,39 @@ function pulse(t, s) {
   ${keys}`);
 }
 
+/* ------------------------------------------------------------------ blog -- */
+
+function blog(t, posts) {
+  const rowH = 34;
+  const top = 132;
+  const h = top + (posts.length - 1) * rowH + 42;
+  const catColor = {
+    Technos: t.cyan, Programmation: t.green,
+    'Réalisations': t.amber, Domotique: t.pink,
+  };
+
+  const rows = posts.map((post, i) => {
+    const y = top + i * rowH;
+    const color = catColor[post.cat] || t.dim;
+    const label = post.cat || '—';
+    const cw13 = cw(13) * label.length + 22;
+    const title = post.title.length > 58 ? `${post.title.slice(0, 57)}…` : post.title;
+    return `
+    <text x="40" y="${y}" font-family="${MONO}" font-size="14" fill="${t.dim}">${esc(post.date)}</text>
+    <rect x="150" y="${y - 15}" width="${cw13}" height="21" rx="10.5"
+          fill="${color}" fill-opacity="${t.neon ? 0.12 : 0.1}" stroke="${color}" stroke-opacity="0.4"/>
+    <text x="${161}" y="${y}" font-family="${MONO}" font-size="13" fill="${color}">${esc(label)}</text>
+    <text x="310" y="${y}" font-family="${MONO}" font-size="15" fill="${t.text}" opacity="0.95">${esc(title)}</text>`;
+  }).join('');
+
+  return svg(h, `${defs(t)}
+  ${chrome(t, h, 'smea.tech — the blog', 'rss')}
+  <rect x="0" y="46" width="${W}" height="${h - 47}" fill="url(#dots)" opacity="0.35"/>
+  ${prompt(t, 40, 88, 'curl -s https://smea.tech/feed | head -5')}
+  <rect x="40" y="104" width="${W - 80}" height="1.5" fill="url(#rule)"/>
+  ${rows}`);
+}
+
 /* ---------------------------------------------------------------- footer -- */
 
 function footer(t) {
@@ -345,14 +420,16 @@ function footer(t) {
 
 /* ------------------------------------------------------------------ main -- */
 
-const stats = await collect();
+const [stats, posts] = await Promise.all([collect(), collectPosts()]);
 console.log('stats:', JSON.stringify(stats));
+console.log('posts:', posts.length, '- latest:', posts[0]?.title);
 
 for (const t of Object.values(THEMES)) {
   const files = {
     [`banner-${t.id}.svg`]: banner(t),
     [`stack-${t.id}.svg`]: stack(t),
     [`pulse-${t.id}.svg`]: pulse(t, stats),
+    [`blog-${t.id}.svg`]: blog(t, posts),
     [`footer-${t.id}.svg`]: footer(t),
   };
   for (const [name, content] of Object.entries(files)) {

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="1200" height="310" role="img">
+<defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5a0" stop-opacity="0.275"/>
+      <stop offset="55%" stop-color="#4cc4ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#4cc4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#00e5a0" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#4cc4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f778ba" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#243040" fill-opacity="0.55"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="1199" height="309" rx="14" fill="#0d1117" stroke="#243040"/>
+  <path d="M0,14 A14,14 0 0 1 14,0 H1186 A14,14 0 0 1 1200,14 V46 H0 Z" fill="#151b23"/>
+  <line x1="0" y1="46" x2="1200" y2="46" stroke="#243040"/>
+  <circle cx="26" cy="23" r="6" fill="#ff6b6b" fill-opacity="0.85"/>
+  <circle cx="48" cy="23" r="6" fill="#f0b429" fill-opacity="0.85"/>
+  <circle cx="70" cy="23" r="6" fill="#00e5a0" fill-opacity="0.85"/>
+  <text x="516" y="28" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">smea.tech — the blog</text>
+  <text x="1174" y="28" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#7d8590" opacity="0.7">rss</text>
+  <rect x="0" y="46" width="1200" height="263" fill="url(#dots)" opacity="0.35"/>
+  <text x="40" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="16">
+    <tspan fill="#00e5a0" font-weight="600">$</tspan><tspan fill="#e6edf3" opacity="0.82"> curl -s https://smea.tech/feed | head -5</tspan>
+  </text>
+  <rect x="40" y="104" width="1120" height="1.5" fill="url(#rule)"/>
+  
+    <text x="40" y="132" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">2026-08-12</text>
+    <rect x="150" y="117" width="76.6" height="21" rx="10.5"
+          fill="#4cc4ff" fill-opacity="0.12" stroke="#4cc4ff" stroke-opacity="0.4"/>
+    <text x="161" y="132" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#4cc4ff">Technos</text>
+    <text x="310" y="132" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#e6edf3" opacity="0.95">CrowdSec : protéger vos sites et applications web</text>
+    <text x="40" y="166" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">2026-08-11</text>
+    <rect x="150" y="151" width="123.39999999999999" height="21" rx="10.5"
+          fill="#00e5a0" fill-opacity="0.12" stroke="#00e5a0" stroke-opacity="0.4"/>
+    <text x="161" y="166" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#00e5a0">Programmation</text>
+    <text x="310" y="166" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#e6edf3" opacity="0.95">Auto Makefile : un Makefile cross projets automatisé</text>
+    <text x="40" y="200" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">2026-08-10</text>
+    <rect x="150" y="185" width="76.6" height="21" rx="10.5"
+          fill="#4cc4ff" fill-opacity="0.12" stroke="#4cc4ff" stroke-opacity="0.4"/>
+    <text x="161" y="200" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#4cc4ff">Technos</text>
+    <text x="310" y="200" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#e6edf3" opacity="0.95">Komga : vos eBooks, mangas et comics à portée de clic</text>
+    <text x="40" y="234" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">2026-08-09</text>
+    <rect x="150" y="219" width="115.6" height="21" rx="10.5"
+          fill="#f0b429" fill-opacity="0.12" stroke="#f0b429" stroke-opacity="0.4"/>
+    <text x="161" y="234" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#f0b429">Réalisations</text>
+    <text x="310" y="234" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#e6edf3" opacity="0.95">IP Info : géolocaliser une adresse IP</text>
+    <text x="40" y="268" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#7d8590">2026-08-08</text>
+    <rect x="150" y="253" width="76.6" height="21" rx="10.5"
+          fill="#4cc4ff" fill-opacity="0.12" stroke="#4cc4ff" stroke-opacity="0.4"/>
+    <text x="161" y="268" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#4cc4ff">Technos</text>
+    <text x="310" y="268" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#e6edf3" opacity="0.95">Beszel : supervisez vos serveurs Docker</text>
+</svg>
