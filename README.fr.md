@@ -42,36 +42,36 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/rest-bundle">rest-bundle</a> <a href="https://github.com/GollumSF/rest-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/rest-bundle?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/rest-bundle">rest-bundle</a> <a href="https://github.com/GollumSF/rest-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/rest-bundle?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Une couche REST volontairement minimale pour Symfony : désérialisation de la requête, validation et réponses JSON, sans embarquer toute une plateforme d'API.<br><br>
       <code>PHP</code> <code>Symfony</code> <code>REST</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/rest-doc-bundle">rest-doc-bundle</a> <a href="https://github.com/GollumSF/rest-doc-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/rest-doc-bundle?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/rest-doc-bundle">rest-doc-bundle</a> <a href="https://github.com/GollumSF/rest-doc-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/rest-doc-bundle?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Le pendant du précédent : génère la documentation de l'API directement depuis les contrôleurs annotés pour <code>rest-bundle</code>. Aucune spec dupliquée.<br><br>
       <code>PHP</code> <code>OpenAPI</code> <code>documentation</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/doctrine-tinyint">doctrine-tinyint</a> <a href="https://github.com/GollumSF/doctrine-tinyint/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/doctrine-tinyint?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/doctrine-tinyint">doctrine-tinyint</a> <a href="https://github.com/GollumSF/doctrine-tinyint/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/doctrine-tinyint?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Le plus installé du lot. Ajoute le type Doctrine <code>TINYINT</code> qui manquait, pour que les petits entiers cessent de coûter quatre octets pièce.<br><br>
       <code>Doctrine</code> <code>DBAL</code> <code>MySQL</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/mjml-binary">mjml-binary</a> <a href="https://github.com/GollumSF/mjml-binary/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/mjml-binary?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/mjml-binary">mjml-binary</a> <a href="https://github.com/GollumSF/mjml-binary/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/mjml-binary?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       MJML livré en binaire compilé via Composer — des e-mails responsives sur un serveur PHP sans la moindre installation de Node.js à proximité.<br><br>
       <code>MJML</code> <code>e-mail</code> <code>sans Node</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/serializer-describe-annotation-bundle">serializer-describe-*-bundle</a> <a href="https://github.com/GollumSF/serializer-describe-annotation-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/serializer-describe-annotation-bundle?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/serializer-describe-annotation-bundle">serializer-describe-*-bundle</a> <a href="https://github.com/GollumSF/serializer-describe-annotation-bundle/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/serializer-describe-annotation-bundle?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Déclarer les groupes de sérialisation là où ils ont leur place — sur l'entité — en version annotation ou attribut PHP&nbsp;8.<br><br>
       <code>Serializer</code> <code>attributs</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumSF/entity-relation-setter">entity-relation-setter</a> <a href="https://github.com/GollumSF/entity-relation-setter/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/entity-relation-setter?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumSF/entity-relation-setter">entity-relation-setter</a> <a href="https://github.com/GollumSF/entity-relation-setter/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumSF/entity-relation-setter?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Maintient automatiquement les deux côtés d'une association Doctrine, pour ne plus réécrire les mêmes <code>addX()/removeX()</code>.<br><br>
       <code>Doctrine</code> <code>ORM</code>
     </td>
@@ -105,24 +105,24 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumJS/GollumTS-Annotation">GollumTS-Annotation</a> <a href="https://github.com/GollumJS/GollumTS-Annotation/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/GollumTS-Annotation?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumJS/GollumTS-Annotation">GollumTS-Annotation</a> <a href="https://github.com/GollumJS/GollumTS-Annotation/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/GollumTS-Annotation?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Des annotations persistantes et lisibles sur les classes TypeScript — des métadonnées qui survivent à la compilation et s'interrogent à l'exécution.<br><br>
       <code>TypeScript</code> <code>décorateurs</code> <code>métadonnées</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumJS/GollumTS-Service">GollumTS-Service</a> <a href="https://github.com/GollumJS/GollumTS-Service/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/GollumTS-Service?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumJS/GollumTS-Service">GollumTS-Service</a> <a href="https://github.com/GollumJS/GollumTS-Service/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/GollumTS-Service?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Un conteneur de services et un injecteur de dépendances pour TypeScript, construit sur la couche d'annotations ci-dessus. Les réflexes Symfony, dans le navigateur.<br><br>
       <code>DI</code> <code>conteneur</code> <code>TypeScript</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumJS/vue-stored-prop-decorator">vue-stored-prop-decorator</a> <a href="https://github.com/GollumJS/vue-stored-prop-decorator/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/vue-stored-prop-decorator?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumJS/vue-stored-prop-decorator">vue-stored-prop-decorator</a> <a href="https://github.com/GollumJS/vue-stored-prop-decorator/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/vue-stored-prop-decorator?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       <code>@Stored</code> transforme une portion du store Vuex en simple propriété typée, avec getter et setter générés.<br><br>
       <code>Vue</code> <code>Vuex</code> <code>décorateurs</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GollumJS/vue-inout-prop-decorator">vue-inout-prop-decorator</a> <a href="https://github.com/GollumJS/vue-inout-prop-decorator/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/vue-inout-prop-decorator?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3><a href="https://github.com/GollumJS/vue-inout-prop-decorator">vue-inout-prop-decorator</a> <a href="https://github.com/GollumJS/vue-inout-prop-decorator/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumJS/vue-inout-prop-decorator?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       De vraies props bidirectionnelles pour Vue : un <code>@InOut()</code> au lieu d'un couple prop + emit à chaque fois.<br><br>
       <code>Vue</code> <code>liaison bidirectionnelle</code>
     </td>
@@ -155,12 +155,12 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📦 <a href="https://github.com/GollumDom/addon-repository">addon-repository</a> <a href="https://github.com/GollumDom/addon-repository/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumDom/addon-repository?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3>📦 <a href="https://github.com/GollumDom/addon-repository">addon-repository</a> <a href="https://github.com/GollumDom/addon-repository/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/GollumDom/addon-repository?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Mon dépôt d'add-ons Home Assistant — l'unique URL qui installe toutes les passerelles ci-dessous dans votre instance.<br><br>
       <code>Home Assistant</code> <code>add-ons</code> <code>Docker</code>
     </td>
     <td width="50%" valign="top">
-      <h3>🔌 <a href="https://github.com/Smeagolworms4/MQTT-Explorer">MQTT-Explorer</a> <a href="https://github.com/Smeagolworms4/MQTT-Explorer/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/Smeagolworms4/MQTT-Explorer?style=flat-square&labelColor=0d1117&color=f0b429"></a></h3>
+      <h3>🔌 <a href="https://github.com/Smeagolworms4/MQTT-Explorer">MQTT-Explorer</a> <a href="https://github.com/Smeagolworms4/MQTT-Explorer/stargazers"><img align="right" alt="étoiles" src="https://img.shields.io/github/stars/Smeagolworms4/MQTT-Explorer?style=flat-square&label=%E2%98%85&labelColor=0d1117&color=f0b429"></a></h3>
       Une compilation Node.js de MQTT Explorer, à lancer sur un serveur et à ouvrir dans le navigateur — sans installation de poste, accessible depuis tout le réseau.<br><br>
       <code>Node.js</code> <code>MQTT</code> <code>auto-hébergé</code>
     </td>
