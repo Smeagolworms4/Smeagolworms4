@@ -1,8 +1,8 @@
 <!-- Les visuels sont générés par scripts/generate.mjs — modifier le script, pas les SVG. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=2">
-  <img alt="Damien Duboeuf — développeur backend et full-stack" src="./assets/banner-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=3">
+  <img alt="Damien Duboeuf — architecte logiciel, backend et front-end" src="./assets/banner-light.svg?v=3" width="100%">
 </picture>
 
 <p align="center">
@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <b>Backend et front-end</b> — Symfony et NestJS d'un côté, Vue, React et Angular de l'autre,<br>
-  et le firmware C++ au bout de la maison. Je fabrique des briques petites, nettes et réutilisables :<br>
-  des bundles qui font une seule chose correctement, des applications qui tiennent dans une image Docker,<br>
-  et une maison qui parle MQTT. Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
+  <b>Architecte logiciel</b> — backend et front-end.<br>
+  Symfony et NestJS d'un côté, Vue, React et Angular de l'autre, et le firmware C++ au bout de la maison.<br>
+  Je dessine la forme d'un système, puis je le construis : des bundles qui font une seule chose<br>
+  correctement, des applications qui tiennent dans une image Docker, et une maison qui parle MQTT. Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
 </p>
 
 ---
@@ -31,9 +31,9 @@
 
 <a href="https://smea.tech/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/blog-light.svg?v=2">
-    <img alt="Derniers articles de smea.tech" src="./assets/blog-light.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/blog-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/blog-light.svg?v=3">
+    <img alt="Derniers articles de smea.tech" src="./assets/blog-light.svg?v=3" width="100%">
   </picture>
 </a>
 
@@ -49,9 +49,9 @@ L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a c
 ## `~/` Boîte à outils
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg?v=2">
-  <img alt="Stack : PHP, Symfony, Doctrine, TypeScript, Vue, React, Node, Docker, Nginx, MQTT, Home Assistant, ESPHome, Arduino, Raspberry Pi" src="./assets/stack-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg?v=3">
+  <img alt="Stack : PHP, Symfony, Doctrine, TypeScript, Vue, React, Node, Docker, Nginx, MQTT, Home Assistant, ESPHome, Arduino, Raspberry Pi" src="./assets/stack-light.svg?v=3" width="100%">
 </picture>
 
 ---
@@ -269,9 +269,9 @@ L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a c
 ## 📊 Pouls GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg?v=2">
-  <img alt="Statistiques GitHub publiques de Smeagolworms4" src="./assets/pulse-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg?v=3">
+  <img alt="Statistiques GitHub publiques de Smeagolworms4" src="./assets/pulse-light.svg?v=3" width="100%">
 </picture>
 
 <sub>Régénéré chaque jour depuis l'API publique GitHub par <a href="./scripts/generate.mjs"><code>scripts/generate.mjs</code></a>. Aucun nom de dépôt privé ni détail d'activité privée n'est exposé.</sub>
@@ -339,7 +339,7 @@ tout appareil qui parle une API propriétaire finit avec sa passerelle
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=2">
-  <img alt="" src="./assets/footer-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=3">
+  <img alt="" src="./assets/footer-light.svg?v=3" width="100%">
 </picture>

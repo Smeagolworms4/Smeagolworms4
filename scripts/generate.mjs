@@ -244,7 +244,7 @@ function banner(t) {
   const h = 412;
   const name = 'DAMIEN  DUBOEUF';
   const rows = [
-    ['role', 'Backend & front-end engineer — freelance, remote'],
+    ['role', 'Software architect — backend & front-end — freelance'],
     ['stack', 'Symfony · NestJS · Vue · React · Angular · Docker · MQTT'],
     ['orgs', 'GollumSF · GollumJS · GollumDom · GollumTeam'],
     ['blog', 'smea.tech — homelab, self-hosting, home automation'],
