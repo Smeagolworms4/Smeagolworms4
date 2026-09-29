@@ -256,6 +256,13 @@ Most of what is below ends up explained there: what the problem was, what broke 
       <code>MV3</code> <code>Chrome / Firefox</code> <code>cookies</code>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>📚 <a href="https://github.com/Smeagolworms4/komga-js">komga-js</a> <a href="https://github.com/Smeagolworms4/komga-js/actions/workflows/build.yml"><img align="right" alt="Build" src="https://img.shields.io/github/actions/workflow/status/Smeagolworms4/komga-js/build.yml?branch=main&style=flat-square&label=build&labelColor=0d1117&color=00e5a0"></a></h3>
+      <a href="https://komga.org">Komga</a>, the comics and ebook server, with its backend <b>ported line by line from Kotlin to TypeScript</b>: same API, same database, same web interface, <b>three to five times less memory</b> and a 1.4&nbsp;s start-up. Every one of the 442 Kotlin files has its twin, and 1,380 of Komga's 1,384 functions are checked against the real JVM code by oracle unit tests. All credit for Komga goes to its author, Gauthier Roebroeck.<br><br>
+      <code>TypeScript</code> <code>Node.js</code> <code>SQLite</code> <code>Docker amd64 · arm64</code>
+    </td>
+  </tr>
 </table>
 
 <sub><b>And the smaller pieces:</b>
