@@ -259,7 +259,8 @@ L'essentiel de ce qui suit y est expliqué : le problème de départ, ce qui a c
     <td colspan="2" valign="top">
       <h3>📚 <a href="https://github.com/Smeagolworms4/komga-js">komga-js</a> <a href="https://github.com/Smeagolworms4/komga-js/actions/workflows/build.yml"><img align="right" alt="Build" src="https://img.shields.io/github/actions/workflow/status/Smeagolworms4/komga-js/build.yml?branch=main&style=flat-square&label=build&labelColor=0d1117&color=00e5a0"></a></h3>
       <a href="https://komga.org">Komga</a>, le serveur de BD et de livres numériques, avec son backend <b>porté ligne à ligne de Kotlin vers TypeScript</b> : même API, même base, même interface web, <b>trois à cinq fois moins de mémoire</b> et un démarrage en 1,4&nbsp;s. Chacun des 442 fichiers Kotlin a son jumeau, et 1 380 des 1 384 fonctions de Komga sont vérifiées contre le vrai code JVM par des tests unitaires à oracle. Tout le mérite de Komga revient à son auteur, Gauthier Roebroeck.<br><br>
-      <code>TypeScript</code> <code>Node.js</code> <code>SQLite</code> <code>Docker amd64 · arm64</code>
+      <code>TypeScript</code> <code>Node.js</code> <code>SQLite</code> <code>Docker amd64 · arm64 · armv7</code><br>
+      <a href="https://smea.tech/komgajs-komga-nodejs/">→ l'article</a>
     </td>
   </tr>
 </table>
