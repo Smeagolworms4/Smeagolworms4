@@ -11,6 +11,7 @@
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
   <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-DOMOTIQUE-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
   <a href="https://github.com/GollumTeam"><img alt="GollumTeam" src="https://img.shields.io/badge/GollumTeam-MINECRAFT-0d1117?style=for-the-badge&logo=curseforge&logoColor=f0b429"></a>
+  <a href="https://duboeuf.tech/fr/"><img alt="CV" src="https://img.shields.io/badge/CV-DUBOEUF.TECH-0d1117?style=for-the-badge&logo=readdotcv&logoColor=00e5a0"></a>
   <a href="https://smea.tech/"><img alt="Blog" src="https://img.shields.io/badge/BLOG-SMEA.TECH-0d1117?style=for-the-badge&logo=rss&logoColor=f0b429"></a>
 </p>
 
@@ -22,7 +23,8 @@
   <b>Architecte logiciel</b> — backend et front-end.<br>
   Symfony et NestJS d'un côté, Vue, React et Angular de l'autre, et le firmware C++ au bout de la maison.<br>
   Je dessine la forme d'un système, puis je le construis : des bundles qui font une seule chose<br>
-  correctement, des applications qui tiennent dans une image Docker, et une maison qui parle MQTT. Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.
+  correctement, des applications qui tiennent dans une image Docker, et une maison qui parle MQTT. Tout auto-hébergé, tout open source — et raconté sur <a href="https://smea.tech/">smea.tech</a>.<br><br>
+  📄 <b>CV :</b> <a href="https://duboeuf.tech/fr/">duboeuf.tech</a> — plus de 18 ans, CTO, architecte et lead développeur · <a href="https://duboeuf.tech/Damien-Duboeuf-CV-FR.pdf">PDF</a>
 </p>
 
 ---
@@ -342,6 +344,7 @@ tout appareil qui parle une API propriétaire finit avec sa passerelle
   <a href="https://github.com/GollumJS">GollumJS</a> ·
   <a href="https://github.com/GollumDom">GollumDom</a> ·
   <a href="https://github.com/GollumTeam">GollumTeam</a> ·
+  <a href="https://duboeuf.tech/fr/">CV</a> ·
   <a href="https://smea.tech/">smea.tech</a> ·
   <a href="./README.md">English</a>
 </p>

@@ -11,6 +11,7 @@
   <a href="https://github.com/GollumJS"><img alt="GollumJS" src="https://img.shields.io/badge/GollumJS-TYPESCRIPT-0d1117?style=for-the-badge&logo=typescript&logoColor=4cc4ff"></a>
   <a href="https://github.com/GollumDom"><img alt="GollumDom" src="https://img.shields.io/badge/GollumDom-HOME_AUTOMATION-0d1117?style=for-the-badge&logo=homeassistant&logoColor=00e5a0"></a>
   <a href="https://github.com/GollumTeam"><img alt="GollumTeam" src="https://img.shields.io/badge/GollumTeam-MINECRAFT-0d1117?style=for-the-badge&logo=curseforge&logoColor=f0b429"></a>
+  <a href="https://duboeuf.tech/en/"><img alt="Resume" src="https://img.shields.io/badge/RESUME-DUBOEUF.TECH-0d1117?style=for-the-badge&logo=readdotcv&logoColor=00e5a0"></a>
   <a href="https://smea.tech/"><img alt="Blog" src="https://img.shields.io/badge/BLOG-SMEA.TECH-0d1117?style=for-the-badge&logo=rss&logoColor=f0b429"></a>
 </p>
 
@@ -23,7 +24,8 @@
   Symfony and NestJS on one side, Vue, React and Angular on the other, and the C++ firmware at the far end of the house.<br>
   I design the shape of a system, then build it: bundles that do one job well,<br>
   apps that ship as a single Docker image, and a home that talks over MQTT.<br>
-  Everything self-hosted, everything open source — and written up on <a href="https://smea.tech/">smea.tech</a>.
+  Everything self-hosted, everything open source — and written up on <a href="https://smea.tech/">smea.tech</a>.<br><br>
+  📄 <b>Résumé:</b> <a href="https://duboeuf.tech/en/">duboeuf.tech</a> — 18+ years, CTO, architect and lead developer · <a href="https://duboeuf.tech/Damien-Duboeuf-CV-EN.pdf">PDF</a>
 </p>
 
 ---
@@ -343,6 +345,7 @@ if a device speaks a proprietary API, it gets a bridge
   <a href="https://github.com/GollumJS">GollumJS</a> ·
   <a href="https://github.com/GollumDom">GollumDom</a> ·
   <a href="https://github.com/GollumTeam">GollumTeam</a> ·
+  <a href="https://duboeuf.tech/en/">Résumé</a> ·
   <a href="https://smea.tech/">smea.tech</a> ·
   <a href="./README.fr.md">Français</a>
 </p>
